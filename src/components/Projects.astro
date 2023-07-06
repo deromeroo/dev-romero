@@ -1,0 +1,33 @@
+---
+import '../styles/Projects.css'
+import {projects} from '../data/projects'
+---
+
+<section class="Projects" id="projects">
+  <h2>Projects</h2>
+
+  <div class="Projects-container">
+
+    {
+      projects.map( ({title,image, description,link}) => (
+
+        <div class="Projects-item">
+    
+          <div class="img-container">
+            <img src={image} alt={title} />
+            <div class="img-overlay">
+              <a href={link} target="_blank">
+                <i class="bi bi-box-arrow-up-right"></i>
+              </a>
+            </div>
+          </div>
+    
+          <h3>{title}</h3>
+          <p>{description}</p>
+    
+        </div>
+      ))
+    }
+    
+  </div>
+</section>

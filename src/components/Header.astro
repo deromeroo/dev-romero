@@ -1,0 +1,24 @@
+---
+import ThemeButton from '../components/utils/ThemeButton.astro';
+import Burger from '../components/utils/Burger.astro';
+import ContactButton from '../components/utils/ContactButton.astro';
+import '../styles/Header.css';
+import Navigation from './utils/Navigation.astro';
+---
+
+<header class="Header">
+
+  <Burger />
+
+  <Navigation />
+
+  <div class="Header-logo">
+    <p class="Header-name"> DevRom </p>
+  </div>
+
+  <div class="Header-buttons">
+    <ThemeButton />
+    <ContactButton />
+  </div>
+
+</header>

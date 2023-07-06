@@ -1,0 +1,48 @@
+.Footer{
+  padding: 15px;
+}
+
+.Footer-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  padding: 10px;
+}
+
+.Footer .About-redes{
+  justify-content: left;
+  margin-top: 0;
+}
+
+.TopBtn{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-end;  
+}
+
+.TopBtn i {
+  color: var(--title-color);
+  font-size: 18px;
+}
+
+.info{
+  margin-top: 10px;
+  text-align: center;
+  background-color: var(--bg-button);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.info a{
+  color: var(--title-color);
+  font-family: var(--title-font);
+  font-weight: 700;
+}
+
+@media (min-width: 480px) {
+  .Footer-container{
+    width: 85%;
+    margin: 0 auto;
+  }
+}

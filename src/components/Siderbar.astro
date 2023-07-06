@@ -1,0 +1,18 @@
+---
+import '../styles/Sidebar.css'
+import Navigation from './utils/Navigation.astro';
+---
+
+<aside class="Sidebar" id="Sidebar">
+  <Navigation />
+</aside>
+
+<script>
+  const burgerBtn = document.getElementById("checkbox");
+
+  const sidebar = document.getElementById("Sidebar");
+
+  burgerBtn?.addEventListener('click', () => {
+    sidebar?.classList.toggle('show')
+  })
+</script>

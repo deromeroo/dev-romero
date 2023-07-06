@@ -1,0 +1,30 @@
+---
+import "../../styles/utils/ThemeButton.css";
+---
+
+<label class="switch">
+  <input type="checkbox" class="checkbox" id="toggle-theme" />
+  <span class="slider"></span>
+</label>
+
+<script>
+  const toggle = document.getElementById("toggle-theme");
+
+  const storedTheme =  (window.matchMedia("(prefers-color-scheme: dark)").matches
+      ? "dark"
+      : "light");
+
+  if (storedTheme)
+    document.documentElement.setAttribute("data-theme", storedTheme);
+
+  toggle?.addEventListener('click', () => {
+    const currentTheme = document.documentElement.getAttribute("data-theme");
+    let targetTheme = "light";
+
+    if (currentTheme === "light") {
+      targetTheme = "dark";
+    }
+
+    document.documentElement.setAttribute("data-theme", targetTheme);
+  });
+</script>

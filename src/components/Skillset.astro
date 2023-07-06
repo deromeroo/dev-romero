@@ -1,0 +1,19 @@
+---
+import "../styles/Skillset.css";
+import { skillset } from "../data/skillset";
+import SkillsetItem from "./utils/SkillsetItem.astro";
+---
+
+<section class="Skillset" id="skillset">
+  <h3>Skillset</h3>
+
+  <div class="Skillset-container">
+
+    {
+      skillset.map( ({title, skillIcon}) => (
+        <SkillsetItem  title={title} skillIcon={skillIcon}/>
+      ))
+    }
+
+  </div>
+</section>

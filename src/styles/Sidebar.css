@@ -1,0 +1,41 @@
+.Sidebar{
+  background-color: var(--text2-color);
+  position: fixed;
+  top: 12%;
+  left: 0;
+  width: 90px;
+  height: 35%;
+  padding: 15px;
+  box-shadow: var(--shadow-color);
+  display: none;
+  border-bottom-right-radius: 7px;
+  border-top-right-radius: 7px;
+  z-index: 5;
+}
+
+.Sidebar .Navigation-nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  gap: 20px;
+}
+
+.Sidebar .Navigation-nav a{
+  color: var(--text-color);
+  transition: all .2s ease;
+}
+.Sidebar .Navigation-nav a:hover{
+  filter: opacity(45%);
+  transition: all .2s ease;
+}
+
+@media (min-width: 720px ) { 
+  .Sidebar{
+    display: none;
+  }
+}
+
+.show{
+  display: flex;
+}
