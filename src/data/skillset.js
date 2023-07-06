@@ -1,39 +1,39 @@
 export const skillset = [
   {
     title: 'Next JS',
-    skillIcon: '../skills/next-js.svg'
+    skillIcon: '/dev-romero/skills/next-js.svg'
   },
   {
     title: 'React JS',
-    skillIcon: '../skills/react.svg'
+    skillIcon: '/dev-romero/skills/react.svg'
   },
   {
     title: 'Javascript',
-    skillIcon: '../skills/javascript.svg'
+    skillIcon: '/dev-romero/skills/javascript.svg'
   },
   {
     title: 'Astro Build',
-    skillIcon: '../skills/astro.svg'
+    skillIcon: '/dev-romero/skills/astro.svg'
   },
   {
     title: 'HTML',
-    skillIcon: '../skills/html.svg'
+    skillIcon: '/dev-romero/skills/html.svg'
   },
   {
     title: 'CSS',
-    skillIcon: '../skills/css-alt.svg'
+    skillIcon: '/dev-romero/skills/css-alt.svg'
   },
   {
     title: 'Tailwind',
-    skillIcon: '../skills/tailwindcss.svg'
+    skillIcon: '/dev-romero/skills/tailwindcss.svg'
   },
   {
     title: 'Typescript',
-    skillIcon: '../skills/typescript.svg'
+    skillIcon: '/dev-romero/skills/typescript.svg'
   },
   {
     title: 'Github',
-    skillIcon: '../skills/github.svg'
+    skillIcon: '/dev-romero/skills/github.svg'
   },
   // {
   //   title: 'NPM',
