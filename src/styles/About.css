@@ -107,14 +107,14 @@
 
 
   @media (min-width: 480px) { 
-    .About{
+    /* .About{
       display: flex;
       align-items: center;
       flex-direction: row;
       justify-content: center;
       gap: 10px;
     }
-  
+   */
     .About-container{
       width: 50%;
     }
