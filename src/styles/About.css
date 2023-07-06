@@ -10,7 +10,7 @@
 
 .About-me{
   width: 200px;
-  height: 50%;
+  height: 250px;
   border-radius: 10%;
   background-color: #9dbd7657;
 }
@@ -135,7 +135,6 @@
 
     .About-me{
       margin-left: 35px;
-      height: 100%;
     }
 
     .About-info{
