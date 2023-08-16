@@ -116,7 +116,7 @@
     }
    */
     .About-container{
-      width: 50%;
+      width: 70%;
     }
   }
   
@@ -130,11 +130,6 @@
     .About-container{
       width: 100%;
       text-align: end;
-      padding-right: 35px;
-    }
-
-    .About-me{
-      margin-left: 35px;
     }
 
     .About-info{
