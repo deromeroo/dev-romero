@@ -12,17 +12,17 @@ import {projects} from '../data/projects'
       projects.map( ({title,image, description,link}) => (
 
         <div class="Projects-item">
+          <h3>{title}</h3>
     
           <div class="img-container">
             <img src={image} alt={title} />
             <div class="img-overlay">
               <a href={link} target="_blank">
-                <i class="bi bi-box-arrow-up-right"></i>
+                <i class="bi bi-link-45deg"></i>
               </a>
             </div>
           </div>
     
-          <h3>{title}</h3>
           <p>{description}</p>
     
         </div>

@@ -16,7 +16,7 @@
 }
 
 .Navigation-nav--item a:hover{
-  filter: opacity(45%);
+  filter: opacity(30%);
   transition: all .2s ease;
 }
 

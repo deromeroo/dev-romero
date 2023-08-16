@@ -1,7 +1,6 @@
 ---
 import ThemeButton from '../components/utils/ThemeButton.astro';
 import Burger from '../components/utils/Burger.astro';
-import ContactButton from '../components/utils/ContactButton.astro';
 import '../styles/Header.css';
 import Navigation from './utils/Navigation.astro';
 ---
@@ -17,8 +16,12 @@ import Navigation from './utils/Navigation.astro';
   </div>
 
   <div class="Header-buttons">
+    <button class="mail-btn">
+      <a class="Btn" target="__blank" href="mailto:deromero707@gmail.com">
+        <i class="bi bi-envelope-fill"></i>
+      </a>
+    </button>
     <ThemeButton />
-    <ContactButton />
   </div>
 
 </header>

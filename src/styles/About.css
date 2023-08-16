@@ -6,7 +6,7 @@
   width: 100%;
   height: 85vh;
   padding: 15px;
-  gap: 35px;
+  gap: 15px;
 }
 
 .About-me{
@@ -22,10 +22,8 @@
 }
 
 .About-header span{
-  font-style: italic;
   font-weight: 700;
   font-family: var(--text-font);
-  font-size: 20px;
 }
 
 .About-container{
@@ -46,6 +44,7 @@
   color: #858585;
   width: 100%;
   line-height: 1.5;
+  text-wrap: balance;
 }
 
 .About-redes{

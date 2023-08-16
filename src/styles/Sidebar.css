@@ -1,22 +1,23 @@
 .Sidebar{
-  background-color: var(--text2-color);
+  background-color: #9dbd7657;
   position: fixed;
-  top: 12%;
+  top: 30%;
   left: 0;
   width: 90px;
-  height: 35%;
+  height: 45%;
   padding: 15px;
   box-shadow: var(--shadow-color);
   display: none;
   border-bottom-right-radius: 7px;
   border-top-right-radius: 7px;
   z-index: 5;
+  backdrop-filter: blur(30px);
 }
 
 .Sidebar .Navigation-nav{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   text-align: left;
   gap: 20px;
 }
@@ -26,7 +27,7 @@
   transition: all .2s ease;
 }
 .Sidebar .Navigation-nav a:hover{
-  filter: opacity(45%);
+  filter: opacity(30%);
   transition: all .2s ease;
 }
 

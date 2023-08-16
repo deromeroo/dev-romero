@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   align-items: center;
-  padding: 15px;
+  padding: 10px;
   background-color: var(--bg-color);
   position: sticky;
   top: 0;
@@ -10,25 +10,52 @@
   z-index: 40;
 }
 
+.Header-logo{
+  display: grid;
+  justify-content: center;
+}
+
 
 .Header-name{
   color: var(--text-color);
   font-family: var(--title-font);
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 16px;
   text-align: center;
-  font-style: italic;
 }
 
 .Header-buttons{
   display: flex;
-  align-items: center;
   justify-content: flex-end;
-  gap: 10px;
+  gap: 15px;
 }
 
 @media (min-width: 480px) {
   .Header{
     grid-template-columns: 1fr 1fr 1fr;
   }
+}
+
+/*Contact*/
+
+.mail-btn {
+  background: none;
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.mail-btn i {
+  color: var(--text-color);
+  font-size: 16px;
+}
+
+.mail-btn:hover {
+  background: var(--bg-button);
+  transition: 0.5s;
+}
+
+
+.standalone-icon{
+  height: 35px;
+  width: 35px;
 }
