@@ -51,14 +51,15 @@
   width: 100%;
 }
 .img-overlay{
-  background-color: transparent;
   transition: all .6s ease;
+  background-color: transparent;
 }
 
 .img-container:hover .img-overlay{
   position: absolute;
   background-color: #25252583;
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
   height: 100%;
   width: 100%;
   top: 0;

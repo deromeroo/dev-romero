@@ -12,9 +12,32 @@
 .About-me{
   width: 200px;
   height: 250px;
-  border-radius: 10%;
+  border-radius: 7px;
   background-color: #9dbd7657;
+  box-shadow: var(--shadow-color);
 }
+
+.About-me img{
+  width: 100%;
+  height: 100%;
+  border-bottom-right-radius: 7px;
+  transform: scale(1.05);
+  transform-origin: bottom right;
+}
+
+/* @media (min-width: 720px) {
+  .About-me img{
+    filter: grayscale(1);
+    transition: all .3s ease-in;
+  }
+
+  .About-me:hover img {
+    transform: scale(1.05);
+    transform-origin: bottom right;
+    filter:grayscale(0) ;
+    transition: all .3s ease-in;
+  }
+} */
 
 .About-header{
   color: var(--text-color);
@@ -24,6 +47,7 @@
 .About-header span{
   font-weight: 700;
   font-family: var(--text-font);
+  font-size: 20px;
 }
 
 .About-container{
@@ -33,10 +57,13 @@
 .About-container h1{
   margin: 10px 0;
   color: var(--title-color);
+  font-size: 18px;
 }
 
 .About-regard{
   margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 700;
 }
 
 .About-info{
@@ -62,9 +89,9 @@
 .redesBtn {
   background: none;
   border: none;
-  padding: 10px;
-  border-radius: 10px;
-  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 18px;
   color: var(--text-color);
 }
 

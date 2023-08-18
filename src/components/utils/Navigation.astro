@@ -18,23 +18,16 @@ import '../../styles/utils/Navigation.css'
   </li>
 </ul>
 
-<script>
+<!-- <script>
   const navBtn = document.querySelectorAll(".Sidebar #navItem");
   const sidebar = document.querySelector('#Sidebar');
   const burger = document.querySelector('#checkbox');
-  const body = document.querySelector('#body');
 
   for (let i = 0; i < navBtn.length; i++) {
     
     navBtn[i].addEventListener('click', (e)=> {
-      sidebar?.classList.remove('show')
-      burger?.classList.remove('active')
+      sidebar?.classList.remove('show');
+      burger?.removeAttribute('checked');
     })
   }
-
-  // body?.addEventListener('click', () => {
-  //   sidebar?.classList.toggle('show')
-  //   burger?.classList.toggle('active')
-  // })
-
-</script>
+</script> -->

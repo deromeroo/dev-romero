@@ -21,7 +21,7 @@
 .SkillsetItem{
   background-color: var(--bg-button);
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 4px;
   display: grid;
   justify-items: center;
   align-content: center;
@@ -32,7 +32,7 @@
 
 .SkillsetItem:hover {
   box-shadow: rgba(0, 0, 0, 0.226) 0px 1px 4px;
-  transform: scale(1.03);
+  transform: scale(1.05);
   transition: all .1s ease-in;
 }
 /* 

@@ -12,6 +12,7 @@
   border-top-right-radius: 7px;
   z-index: 5;
   backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
 }
 
 .Sidebar .Navigation-nav{
@@ -27,7 +28,7 @@
   transition: all .2s ease;
 }
 .Sidebar .Navigation-nav a:hover{
-  filter: opacity(30%);
+  filter: opacity(22%);
   transition: all .2s ease;
 }
 
