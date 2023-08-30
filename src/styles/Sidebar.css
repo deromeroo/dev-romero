@@ -1,18 +1,19 @@
 .Sidebar{
-  background-color: #9dbd7657;
-  position: fixed;
-  top: 30%;
-  left: 0;
-  width: 90px;
-  height: 45%;
-  padding: 15px;
-  box-shadow: var(--shadow-color);
-  display: none;
+  background-color: var(--bg-green);
+  backdrop-filter: blur(30px);
   border-bottom-right-radius: 7px;
   border-top-right-radius: 7px;
-  z-index: 5;
-  backdrop-filter: blur(30px);
+  box-shadow: var(--shadow-color);
+  display: none;
+  height: 45%;
+  left: 0;
+  position: fixed;
+  padding: 15px;
+  top: 30%;
+  transition: all ease 5s;
+  width: 100px;
   -webkit-backdrop-filter: blur(30px);
+  z-index: 5;
 }
 
 .Sidebar .Navigation-nav{
@@ -21,6 +22,7 @@
   justify-content: space-evenly;
   text-align: left;
   gap: 20px;
+  height: 100%;
 }
 
 .Sidebar .Navigation-nav a{
@@ -28,16 +30,17 @@
   transition: all .2s ease;
 }
 .Sidebar .Navigation-nav a:hover{
-  filter: opacity(22%);
-  transition: all .2s ease;
+  filter: opacity(40%);
+  transition: all .3s ease;
 }
 
 @media (min-width: 720px ) { 
   .Sidebar{
-    display: none;
+    display: none !important;
   }
 }
 
 .show{
-  display: flex;
+  display: block;
+  transition: all ease 5s;
 }
