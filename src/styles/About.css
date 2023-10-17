@@ -100,7 +100,7 @@
   transition: all 0.5s ease;
 }
 
-.redesBtn:hover .bi-linkedin{
+/* .redesBtn:hover .bi-linkedin{
   color: #0A66C2;
   transition: all 0.5s ease;
 }
@@ -113,7 +113,7 @@
 .redesBtn:hover .bi-twitter{
   color: #1da1f2;
   transition: all 0.5s ease;
-}
+} */
 
 .arrow-section{
   padding: 5px 15px;
